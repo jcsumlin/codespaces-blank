@@ -55,6 +55,7 @@ def send_pushover(message: str):
 
 
 try:
+    send_pushover("starting script")
     while True:
         for city, id in LOCATION_IDS.items():
             try:
